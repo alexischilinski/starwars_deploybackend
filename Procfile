@@ -1,1 +1,1 @@
-web: gunicorn starwars.wsgi
+web: gunicorn starwars/starwars.wsgi  --log-file -

@@ -12,6 +12,7 @@ django-rest-knox = "*"
 django-cors-headers = "*"
 django-heroku = "*"
 requests = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"

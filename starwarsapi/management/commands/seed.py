@@ -5,9 +5,13 @@ from ...models import Planet, Species, Character, Vehicle, Starship, Movie, Char
 
 
 def get_planets():
+    print("this is called and this deployment thing is a pain in my ass")
     url = 'http://localhost:8000/api/planets/?format=json'
     r = requests.get(url, headers={'Content-Type': 'application/json'})
+    print(r)
     planets = r.json()
+    print(planets)
+    print("this is called just before the return of the get planets function")
     return planets
 
 def get_species():

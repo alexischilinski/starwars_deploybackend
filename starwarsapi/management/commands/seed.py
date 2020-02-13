@@ -152,8 +152,8 @@ def clear_data():
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-        clear_data()
-        # seed_planets()
+        # clear_data()
+        seed_planets()
         # seed_species()
         # seed_movies()
         # seed_characters()

@@ -3,7 +3,7 @@
 This is the backend for my Star Wars 101 project, an app meant for Star Wars newbies. It is paired with the starwars_frontend repo (https://github.com/alexiscait142/starwars_frontend_react).
 
 This app is also fully deployed at:
-https://starwars101mod4.herokuapp.com/
+https://starwars101mod4.herokuapp.com/ & 
 https://starwars101mod4.firebaseapp.com/
 
 

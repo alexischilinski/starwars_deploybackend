@@ -9,7 +9,7 @@ https://starwars101mod4.firebaseapp.com/
 
 ## Getting Started/Installing
 
-Fork and clone this repo. This is a Django app so it will require the latest versions of Python and Django. As long as the below packages are installed, run the following command:
+Fork and clone this repo. This is a Django app so it will require the latest versions of Python and Django, and it utilizes PostgreSQL for the database. As long as the below packages are installed, run the following command:
 
 ```
 pipenv shell
@@ -33,6 +33,10 @@ to start the server.
 ### Prerequisites
 
 The required packages are:
+
+```
+psycopg2
+```
 ```
 python
 ```

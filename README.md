@@ -33,7 +33,9 @@ to start the server.
 ### Prerequisites
 
 The required packages are:
-
+```
+python
+```
 ```
 django
 ```

@@ -64,6 +64,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
        'http://localhost:3000',
        'https://starwars101mod4.firebaseapp.com/',
+       'https://starwars101mod4.web.app/',
 )
 
 ROOT_URLCONF = 'starwars.urls'
